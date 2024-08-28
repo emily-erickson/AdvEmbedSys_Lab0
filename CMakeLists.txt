@@ -47,8 +47,7 @@ if(PICO_TOOLCHAIN_PATH MATCHES "RISCV")
     endif()
 endif()
 
-#
-# include(${USERHOME}/.pico-sdk/cmake/pico-vscode.cmake)
+
 # ====================================================================================
 set(PICO_BOARD pico_w CACHE STRING "Board type")
 
